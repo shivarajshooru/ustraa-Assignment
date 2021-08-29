@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ustraa-Assignment/static/css/main.160427e5.chunk.css",
+    "main.js": "/ustraa-Assignment/static/js/main.7f771b83.chunk.js",
+    "main.js.map": "/ustraa-Assignment/static/js/main.7f771b83.chunk.js.map",
+    "runtime-main.js": "/ustraa-Assignment/static/js/runtime-main.9cb9150d.js",
+    "runtime-main.js.map": "/ustraa-Assignment/static/js/runtime-main.9cb9150d.js.map",
+    "static/js/2.4ad3bbb2.chunk.js": "/ustraa-Assignment/static/js/2.4ad3bbb2.chunk.js",
+    "static/js/2.4ad3bbb2.chunk.js.map": "/ustraa-Assignment/static/js/2.4ad3bbb2.chunk.js.map",
+    "static/js/3.6d914ebe.chunk.js": "/ustraa-Assignment/static/js/3.6d914ebe.chunk.js",
+    "static/js/3.6d914ebe.chunk.js.map": "/ustraa-Assignment/static/js/3.6d914ebe.chunk.js.map",
+    "index.html": "/ustraa-Assignment/index.html",
+    "static/css/main.160427e5.chunk.css.map": "/ustraa-Assignment/static/css/main.160427e5.chunk.css.map",
+    "static/js/2.4ad3bbb2.chunk.js.LICENSE.txt": "/ustraa-Assignment/static/js/2.4ad3bbb2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cb9150d.js",
+    "static/js/2.4ad3bbb2.chunk.js",
+    "static/css/main.160427e5.chunk.css",
+    "static/js/main.7f771b83.chunk.js"
+  ]
+}
