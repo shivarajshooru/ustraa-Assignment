@@ -74,11 +74,11 @@ export default function Products() {
      
        
         <div className="cataGory">
-            <div>View All</div>
+            <div className="viewall">View All</div>
     {catArray.category_list ? (catArray.category_list.map((index,item)=>{
     return <div onClick={()=>{clickCat(index.category_id,index.category_name)}} id={index.category_id} key={index.category_name} style={{backgroundImage:`url(${index.category_image})`}}>{index.category_name}</div>
 })):null}
-<div>View All</div>
+<div className="viewall">View All</div>
         </div>
         <div className="product" style={{marginLeft:"100px",marginTop:"50px"}}>
         {products ? (products.map((item,index)=>{
