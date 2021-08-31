@@ -85,3 +85,7 @@ Button.dropdown{
   
   
 }
+
+.view,.cataGory {
+  cursor: pointer;
+}
