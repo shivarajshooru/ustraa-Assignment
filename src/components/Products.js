@@ -101,31 +101,36 @@ export default function Products() {
    
 
         </div>
-        { catArray ? ( <div>
-                <button className="view" onClick={handleView}>{view}</button>
-  <div>
+        { catArray ? ( <div className="footer">
+        <label className="selcat">showing for <span>{catName}</span></label>
+
+        <div >
   
-      <label className="selcat">{`Catagory => ${catName}`}</label>
-      <div >
-      <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} className="dropdown" >
-        Change Catagory
-      </Button>
-      <Menu
-        id="simple-menu"
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClose={handleClose}
-        
-      >
+     
+     
+  <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} className="dropdown" >
+    change
+  </Button>
+  <Menu
+    id="simple-menu"
+    anchorEl={anchorEl}
+    keepMounted
+    open={Boolean(anchorEl)}
+    onClose={handleClose}
+    
+  >
 
 {catArray.category_list ? (catArray.category_list.map((index,item)=>{
-    return <MenuItem onClick={()=>{clickCat(index.category_id,index.category_name);handleClose()}} id={index.category_id} key={index.category_name} >{index.category_name}</MenuItem>
+return <MenuItem onClick={()=>{clickCat(index.category_id,index.category_name);handleClose()}} id={index.category_id} key={index.category_name} >{index.category_name}</MenuItem>
 })):null}
-      </Menu>
-    </div>
+  </Menu>
+
+
+                <button className="view" onClick={handleView}>{view}</button>
+                </div>
+  
         </div>
-        </div>) : null}
+    ) : null}
 
         </div>
     )
