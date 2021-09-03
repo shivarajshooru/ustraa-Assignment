@@ -46,40 +46,8 @@ h2 {
   color:whitesmoke;
   border: 0px;
 }
-.view {
-  height: 40px;
-  width: 130px;
-  background-color: rgb(176, 76, 216);
-  color:whitesmoke;
-  border: 0px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  margin-top: 15px;
-  font-family: clear Sans;
-  font-size: 15px;
-}
 
-.selcat {
-  color:green;
-  background-color: rgb(223, 202, 17);
-  padding: 10px;
-  margin-right: 5px;
-  
-  
-}
-Button.dropdown{
-  height: 40px;
-  width: 130px;
-  background-color: lightcoral;
-  color:rgb(173, 9, 9);
-  border: 0px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  margin-top: 15px;
-  font-family: clear Sans;
-  font-size: 12px;
-  padding: 22px;
-}
+
 .viewall {
   border:1px solid rgba(61, 60, 60, 0.431);
   
@@ -88,4 +56,35 @@ Button.dropdown{
 
 .view,.cataGory {
   cursor: pointer;
+}
+
+.footer {
+  margin-top: 5vh;
+}
+
+.selcat {
+  margin-left: 10vh;
+}
+.selcat span {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 1vh;
+}
+
+.footer Button {
+   text-transform: lowercase;
+  
+}
+Button {
+  margin-right: 10vh;
+}
+
+.footer {
+  display:flex;
+  
+  justify-content:space-between ;
+}
+.view{
+  margin-left: 2vh;
+  border-width: 0px;
 }
