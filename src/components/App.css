@@ -8,8 +8,8 @@
 
 .cataGory div {
   margin: 5px;
- width: 250px;
-   height: 100px;
+ width: 9vw;
+   height: 6vw;
  display: flex;
    justify-content: center;
  align-items: center;
@@ -96,6 +96,7 @@ Button {
 }
 
 .rightfooter{
+display: inline-block;
   position: relative;
   left: 50vw;
   bottom: 4vh;
