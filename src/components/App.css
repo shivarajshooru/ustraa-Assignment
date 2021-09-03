@@ -32,6 +32,12 @@ h2 {
   margin-top: 50px;
   display: flex;
 }
+
+.proItem img {
+  height: 30vw;
+  margin-top: 5vh;
+}
+
 .stock {
   height: 40px;
   width: 130px;
@@ -63,12 +69,12 @@ h2 {
 }
 
 .selcat {
-  margin-left: 10vh;
+  margin-left: 5vw;
 }
 .selcat span {
   font-weight: bold;
   font-size: 20px;
-  margin-left: 1vh;
+  margin-left: 1vw;
 }
 
 .footer Button {
@@ -76,7 +82,7 @@ h2 {
   
 }
 Button {
-  margin-right: 10vh;
+  margin-right: 5vw;
 }
 
 .footer {
@@ -85,6 +91,6 @@ Button {
   justify-content:space-between ;
 }
 .view{
-  margin-left: 2vh;
+  margin-left: 0vw;
   border-width: 0px;
 }

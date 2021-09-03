@@ -80,7 +80,9 @@ export default function Products() {
 })):null}
 <div className="viewall">View All</div>
         </div>
-        <div className="product" style={{marginLeft:"100px",marginTop:"50px"}}>
+
+
+        <div className="product" style={{marginLeft:"5vw",marginTop:"10vh"}}>
         {products ? (products.map((item,index)=>{
            
             return (<div className="proItem" key={item.name} >
