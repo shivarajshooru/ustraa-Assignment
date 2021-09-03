@@ -69,11 +69,11 @@ h2 {
 }
 
 .selcat {
-  margin-left: 5vw;
+  margin-left: 3vw;
 }
 .selcat span {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 1vw;
 }
 
@@ -85,12 +85,18 @@ Button {
   margin-right: 5vw;
 }
 
-.footer {
+/* .footer {
   display:flex;
   
   justify-content:space-between ;
-}
+} */
 .view{
   margin-left: 0vw;
   border-width: 0px;
+}
+
+.rightfooter{
+  position: relative;
+  left: 50vw;
+  bottom: 4vh;
 }

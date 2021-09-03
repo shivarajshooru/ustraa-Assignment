@@ -87,7 +87,7 @@ export default function Products() {
            
             return (<div className="proItem" key={item.name} >
                 <img src={item.image_urls["x200"]} alt={item.name}/>
-                <div style={{marginTop:"20px",marginLeft:"20px"}}>
+                <div style={{marginTop:"10vw",marginLeft:"2vw"}}>
         {item.name}<span style={{marginLeft:"10px"}} >{item.rating}*</span>
         <p>({item.weight} gm)</p>
         <h4>₹ {item.price_new}<span style={{marginLeft:"10px",textDecoration:"line-through",fontWeight:"normal"}}>{item.price}</span></h4>
@@ -106,7 +106,7 @@ export default function Products() {
         { catArray ? ( <div className="footer">
         <label className="selcat">showing for <span>{catName}</span></label>
 
-        <div >
+        <div className="rightfooter" >
   
      
      
