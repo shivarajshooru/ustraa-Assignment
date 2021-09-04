@@ -8,8 +8,8 @@
 
 .cataGory div {
   margin: 5px;
- width: 9vw;
-   height: 6vw;
+ width: 122px;
+   height: 100px;
  display: flex;
    justify-content: center;
  align-items: center;
@@ -18,6 +18,7 @@
   font-style: bold;
   background-size: 125px 100px;
   border-radius: 3px;
+  min-width: 5%;
 }
 h2 {
   margin-left: 15px;
@@ -34,7 +35,7 @@ h2 {
 }
 
 .proItem img {
-  height: 30vw;
+  height: 15vw;
   margin-top: 5vh;
 }
 
@@ -64,12 +65,11 @@ h2 {
   cursor: pointer;
 }
 
-.footer {
-  margin-top: 5vh;
-}
 
 .selcat {
   margin-left: 3vw;
+  min-width: 5%;
+  min-width: 180px;
 }
 .selcat span {
   font-weight: bold;
@@ -82,22 +82,46 @@ h2 {
   
 }
 Button {
-  margin-right: 5vw;
+  margin-right: 4vw;
 }
 
-/* .footer {
-  display:flex;
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+ 
+  align-items: center;
+}
+
+.rightfooter {
+  min-width: 180px;
   
-  justify-content:space-between ;
-} */
-.view{
-  margin-left: 0vw;
-  border-width: 0px;
 }
 
-.rightfooter{
-display: inline-block;
-  position: relative;
-  left: 50vw;
-  bottom: 4vh;
+@media (max-width: 420px) {
+
+  .cataGory div {
+    margin: 5px;
+   width: 122px;
+     height: 100px;
+   display: flex;
+     justify-content: center;
+   align-items: center;
+     font-family: clear Sans;
+    font-size: 20px;
+    font-style: bold;
+    background-size: 125px 100px;
+    border-radius: 3px;
+    min-width: 30%;
+    text-align: center;
+  }
+
+  .proItem img {
+    height: 20vh;
+    margin-top: 5vh;
+  }
+
 }

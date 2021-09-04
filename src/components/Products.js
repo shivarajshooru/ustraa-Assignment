@@ -87,7 +87,7 @@ export default function Products() {
            
             return (<div className="proItem" key={item.name} >
                 <img src={item.image_urls["x200"]} alt={item.name}/>
-                <div style={{marginTop:"10vw",marginLeft:"2vw"}}>
+                <div style={{marginTop:"5vw",marginLeft:"3vw"}}>
         {item.name}<span style={{marginLeft:"10px"}} >{item.rating}*</span>
         <p>({item.weight} gm)</p>
         <h4>₹ {item.price_new}<span style={{marginLeft:"10px",textDecoration:"line-through",fontWeight:"normal"}}>{item.price}</span></h4>
@@ -103,13 +103,15 @@ export default function Products() {
    
 
         </div>
+
+        
         { catArray ? ( <div className="footer">
         <label className="selcat">showing for <span>{catName}</span></label>
 
-        <div className="rightfooter" >
+    
   
      
-     
+     <div className="rightfooter">
   <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} className="dropdown" >
     change
   </Button>
@@ -130,8 +132,9 @@ return <MenuItem onClick={()=>{clickCat(index.category_id,index.category_name);h
 
                 <button className="view" onClick={handleView}>{view}</button>
                 </div>
+                </div>
   
-        </div>
+        
     ) : null}
 
         </div>
