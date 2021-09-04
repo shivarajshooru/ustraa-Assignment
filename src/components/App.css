@@ -79,6 +79,7 @@ h2 {
 
 .footer Button {
    text-transform: lowercase;
+   border: none;
   
 }
 Button {
@@ -116,6 +117,31 @@ Button {
     background-size: 125px 100px;
     border-radius: 3px;
     min-width: 30%;
+    text-align: center;
+  }
+
+  .proItem img {
+    height: 20vh;
+    margin-top: 5vh;
+  }
+
+}
+
+@media (max-width: 750px) and (min-width:420px) {
+
+  .cataGory div {
+    margin: 5px;
+   width: 122px;
+     height: 100px;
+   display: flex;
+     justify-content: center;
+   align-items: center;
+     font-family: clear Sans;
+    font-size: 20px;
+    font-style: bold;
+    background-size: 125px 100px;
+    border-radius: 3px;
+    min-width: 20%;
     text-align: center;
   }
 
