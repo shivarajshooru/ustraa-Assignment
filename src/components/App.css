@@ -139,14 +139,14 @@ Button {
      font-family: clear Sans;
     font-size: 20px;
     font-style: bold;
-    background-size: 125px 100px;
+    background-size: 160px 100px;
     border-radius: 3px;
-    min-width: 30%;
+    min-width: 25%;
     text-align: center;
   }
 
   .proItem img {
-    height: 20vh;
+    height: 20vw;
     margin-top: 5vh;
   }
 
